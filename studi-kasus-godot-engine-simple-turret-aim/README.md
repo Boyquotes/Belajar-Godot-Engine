@@ -1,4 +1,4 @@
-# Studi Kasus Godot Engine Simple NavMesh Agent
+# Studi Kasus Godot Engine Simple Turret Aim
 
 ## Cara Mencoba Kode Ini
 

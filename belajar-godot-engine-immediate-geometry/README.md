@@ -1,2 +1,10 @@
-# GDImmediateGeometry
-GDImmediateGeometry 
+# Belajar Godot Engine Immediate Geometry
+## Cara Mencoba Kode Ini
+
+## Pendahuluan
+
+## Traktir
+
+Traktir saya di sini:
+
+https://sociabuzz.com/lsfkrshb/tribe

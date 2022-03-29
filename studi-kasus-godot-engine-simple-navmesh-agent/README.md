@@ -4,8 +4,12 @@
 
 ## Pendahuluan
 
-## Traktir
+## Info Tambahan
 
-Traktir saya di sini:
+Traktir Saya:
 
 https://sociabuzz.com/lsfkrshb/tribe
+
+Channel YouTube Saya:
+
+https://www.youtube.com/c/shbfrlnc

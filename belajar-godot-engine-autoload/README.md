@@ -87,4 +87,4 @@ https://sociabuzz.com/lsfkrshb/tribe
 
 Channel YouTube Saya:
 
-https://www.youtube.com/c/shbfrlnc
+https://www.youtube.com/c/SHBFRLNC

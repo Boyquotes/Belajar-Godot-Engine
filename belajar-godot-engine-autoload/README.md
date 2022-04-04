@@ -1,4 +1,5 @@
 # Belajar Godot Engine Autoload
+
 ## Cara Mencoba Project Ini
 
 Untuk mencoba project ini, download folder ini, kemudian buka di Godot Engine 3.4.
@@ -32,12 +33,12 @@ extends Node # script ini di-extend dari Node
 
 # ketika game baru dijalankan
 func _ready():
-	print("Game dimulai...")
+    print("Game dimulai...")
 
 # ganti scene ke "name"
 func change_scene(name):
-	# begini perintah untuk ganti scene
-	get_tree().change_scene("res://Scenes/" + name + ".tscn")
+    # begini perintah untuk ganti scene
+    get_tree().change_scene("res://Scenes/" + name + ".tscn")
 ```
 
 Scene1.gd tuganya adalah mengakses change_scene dari GameManager untuk berpindah dari Scene1 ke Scene2 secara otomatis dengan menggunakan timer.
@@ -51,17 +52,15 @@ var timer = 0.0 # inisialisasi variabel timer
 
 # ketika game baru dijalankan
 func _ready():
-	print("Scene1 dimulai...")
+    print("Scene1 dimulai...")
 
 # saat game berjalan. delta adalah selisih waktu
 func _process(delta):
-	timer += delta
-	if (timer > 3.0):
-		GameManager.change_scene("Scene2") # ganti scene ke Scene2
-		timer = 0.0
+    timer += delta
+    if (timer > 3.0):
+        GameManager.change_scene("Scene2") # ganti scene ke Scene2
+        timer = 0.0
 ```
-
-
 
 Scene2.gd tugasnya adalah menampilkan log "Scene2 dimulai..." setelah user masuk ke scene tersebut.
 
@@ -72,19 +71,11 @@ extends Spatial # script ini di-extend dari Spatial
 
 # ketika game baru dijalankan
 func _ready():
-	print("Scene2 dimulai...") # print "Scene2 dimulai..."
+    print("Scene2 dimulai...") # print "Scene2 dimulai..."
 ```
 
 Perlu diketahui bahwa dalam GDScript di Godot Engine, "#" adalah tanda komentar.
 
 Kode yang ada setelah karakter "#" tidak dijalankan selama masih dalam baris yang sama.
 
-## Info Tambahan
-
-Traktir Saya:
-
-https://sociabuzz.com/lsfkrshb/tribe
-
-Channel YouTube Saya:
-
-https://www.youtube.com/c/SHBFRLNC
+# 

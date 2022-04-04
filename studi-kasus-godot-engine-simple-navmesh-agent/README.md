@@ -61,77 +61,69 @@ var node_index = 0
 
 # abaikan
 func _ready():
-	pass
+    pass
 
 # ketika input event terjadi
 func _input(event):
-	# jika input event adalah tombol mouse ditekan pada button index 1
-	if event is InputEventMouseButton and event.pressed and event.button_index == 1:
-		# dapatkan posisi world dari kursor
-		var result = cam_to_world(event.position)
-		
-		# jika ada, maka lakukan pathfinding
-		if not result.empty():
-			request_path(result["position"])
-	pass
+    # jika input event adalah tombol mouse ditekan pada button index 1
+    if event is InputEventMouseButton and event.pressed and event.button_index == 1:
+        # dapatkan posisi world dari kursor
+        var result = cam_to_world(event.position)
+
+        # jika ada, maka lakukan pathfinding
+        if not result.empty():
+            request_path(result["position"])
+    pass
 
 # frame fisika. delta adalah selisih waktu.
 func _physics_process(delta):
-	# begin: lakukan follow path dari hasil pathfinding
-	var from = next_node()
-	if from != null:
-		from.y = 0
-		var to = global_transform.origin
-		to.y = 0
-		
-		if (from - to).length() < checkpoint_distance:
-			next_node_index()
-		else:
-			vel = (from - to).normalized() * speed
-			vel = move_and_slide(vel, Vector3.UP)
-			pass
-			# end: lakukan follow path dari hasil pathfinding
+    # begin: lakukan follow path dari hasil pathfinding
+    var from = next_node()
+    if from != null:
+        from.y = 0
+        var to = global_transform.origin
+        to.y = 0
+
+        if (from - to).length() < checkpoint_distance:
+            next_node_index()
+        else:
+            vel = (from - to).normalized() * speed
+            vel = move_and_slide(vel, Vector3.UP)
+            pass
+            # end: lakukan follow path dari hasil pathfinding
 
 # cari path nodes antara posisi sekarang dengan target
 func request_path(target_pos):
-	var from = global_transform.origin
-	from.y = 0
-	var to = target_pos
-	to.y = 0
-	
-	path_nodes = nav.get_simple_path(from, to)
-	reset_node_index()
-	pass
+    var from = global_transform.origin
+    from.y = 0
+    var to = target_pos
+    to.y = 0
+
+    path_nodes = nav.get_simple_path(from, to)
+    reset_node_index()
+    pass
 
 # reset indeks path node
 func reset_node_index():
-	node_index = 0
-	pass
+    node_index = 0
+    pass
 
 # indeks path node selanjutnya
 func next_node_index():
-	node_index = node_index + 1
-	pass
+    node_index = node_index + 1
+    pass
 
 # path node selanjutnya
 func next_node():
-	if node_index < path_nodes.size():
-		return path_nodes[node_index]
-	else:
-		return null
-	pass
+    if node_index < path_nodes.size():
+        return path_nodes[node_index]
+    else:
+        return null
+    pass
 
 # konversi koordinat layar ke world
 func cam_to_world(pos):
-	return get_world().direct_space_state.intersect_ray(cam.project_ray_origin(pos), cam.project_ray_origin(pos) + cam.project_ray_normal(pos) * ray_length)
+    return get_world().direct_space_state.intersect_ray(cam.project_ray_origin(pos), cam.project_ray_origin(pos) + cam.project_ray_normal(pos) * ray_length)
 ```
 
-## Info Tambahan
-
-Traktir Saya:
-
-https://sociabuzz.com/lsfkrshb/tribe
-
-Channel YouTube Saya:
-
-https://www.youtube.com/c/SHBFRLNC
+# 

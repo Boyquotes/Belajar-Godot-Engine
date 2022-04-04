@@ -1,4 +1,5 @@
 # Belajar Godot Engine Mouse Button Input
+
 ## Cara Mencoba Kode Ini
 
 Untuk mencoba project ini, download folder ini, kemudian buka di Godot Engine 3.4.
@@ -21,26 +22,18 @@ extends Spatial
 
 # pada setiap frame. delta adalah selisih waktu.
 func _process(delta):
-	# apakah tombol kiri mouse ditekan
-	if(Input.is_mouse_button_pressed(BUTTON_LEFT)):
-		print("left mouse button pressed")
-	# apakah tombol kanan mouse ditekan
-	if(Input.is_mouse_button_pressed(BUTTON_RIGHT)):
-		print("right mouse button pressed")
-	# apakah tombol tengah mouse ditekan
-	if(Input.is_mouse_button_pressed(BUTTON_MIDDLE)):
-		print("middle mouse button pressed")
-	# apakah action "test_mouse_action" yang disetting di project setting ditekan
-	if(Input.is_action_pressed("test_mouse_action")):
-		print("test_mouse_action pressed")
+    # apakah tombol kiri mouse ditekan
+    if(Input.is_mouse_button_pressed(BUTTON_LEFT)):
+        print("left mouse button pressed")
+    # apakah tombol kanan mouse ditekan
+    if(Input.is_mouse_button_pressed(BUTTON_RIGHT)):
+        print("right mouse button pressed")
+    # apakah tombol tengah mouse ditekan
+    if(Input.is_mouse_button_pressed(BUTTON_MIDDLE)):
+        print("middle mouse button pressed")
+    # apakah action "test_mouse_action" yang disetting di project setting ditekan
+    if(Input.is_action_pressed("test_mouse_action")):
+        print("test_mouse_action pressed")
 ```
 
-## Info Tambahan
-
-Traktir Saya:
-
-https://sociabuzz.com/lsfkrshb/tribe
-
-Channel YouTube Saya:
-
-https://www.youtube.com/c/SHBFRLNC
+# 

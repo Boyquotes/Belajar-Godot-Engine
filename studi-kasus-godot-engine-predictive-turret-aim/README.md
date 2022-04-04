@@ -1,4 +1,5 @@
 # Studi Kasus Godot Engine Predictive Turret Aim
+
 ## Cara Mencoba Kode Ini
 
 Untuk mencoba project ini, download folder ini, kemudian buka di Godot Engine 3.4.
@@ -33,12 +34,12 @@ export var vel = Vector3()
 
 # saat komponen ready
 func _ready():
-	# memulai peluncuran
-	linear_velocity = vel;
-	
-	# menunggu selama lifetime sampai pada akhirnya dihapus
-	yield(get_tree().create_timer(lifetime),"timeout")
-	queue_free()
+    # memulai peluncuran
+    linear_velocity = vel;
+
+    # menunggu selama lifetime sampai pada akhirnya dihapus
+    yield(get_tree().create_timer(lifetime),"timeout")
+    queue_free()
 ```
 
 ```
@@ -69,57 +70,49 @@ var vel = Vector3()
 
 # ketika ada event input
 func _input(event):
-	# jika event adalah gerakan mouse
-	if event is InputEventMouseMotion:
-		# konversi koordinat layar ke koordinat world
-		var result = cam_to_world(event.position)
-		if result.size() > 0 and result["position"] != null:
-			target_pos = result["position"]
-	
+    # jika event adalah gerakan mouse
+    if event is InputEventMouseMotion:
+        # konversi koordinat layar ke koordinat world
+        var result = cam_to_world(event.position)
+        if result.size() > 0 and result["position"] != null:
+            target_pos = result["position"]
+
     # jika event adalah action "shoot" seperti yang disetting di project setting
-	if event.is_action_pressed("shoot"):
-		# luncurkan peluru
-		var bullet_instance = bullet.instance()
-		bullet_instance.vel = vel # ambil dari rumus di bawah
-		bullet_instance.global_transform = spawn.global_transform
-		get_tree().get_root().add_child(bullet_instance)
-	pass
+    if event.is_action_pressed("shoot"):
+        # luncurkan peluru
+        var bullet_instance = bullet.instance()
+        bullet_instance.vel = vel # ambil dari rumus di bawah
+        bullet_instance.global_transform = spawn.global_transform
+        get_tree().get_root().add_child(bullet_instance)
+    pass
 
 # tiap frame. delta adalah selisih waktu
 func _process(delta):
-	aim(target_pos)
-	pass
+    aim(target_pos)
+    pass
 
 # abaikan
 func _physics_process(delta):
-	pass
+    pass
 
 # bidik
 func aim(tgt_pos):
-	# rumus fisika SMA
-	var v0 = (tgt_pos - global_transform.origin - (0.5 * Vector3(0, -9.8, 0) * landing_time * landing_time))/landing_time
-	
-	# arahkan muzzle ke nilai v0
-	turret_vertical.look_at(v0, Vector3.UP)
-	
-	# parent node nya juga harus diposisikan agar sesuai dengan child nya
-	turret_horizontal.rotate_y(turret_vertical.transform.basis.get_euler().y)
-	
-	# ini nanti akan digunakan di input event di atas
-	vel = v0
-	pass
+    # rumus fisika SMA
+    var v0 = (tgt_pos - global_transform.origin - (0.5 * Vector3(0, -9.8, 0) * landing_time * landing_time))/landing_time
+
+    # arahkan muzzle ke nilai v0
+    turret_vertical.look_at(v0, Vector3.UP)
+
+    # parent node nya juga harus diposisikan agar sesuai dengan child nya
+    turret_horizontal.rotate_y(turret_vertical.transform.basis.get_euler().y)
+
+    # ini nanti akan digunakan di input event di atas
+    vel = v0
+    pass
 
 # konversi koordinat layar ke world
 func cam_to_world(pos):
-	return get_world().direct_space_state.intersect_ray(cam.project_ray_origin(pos), cam.project_ray_origin(pos) + cam.project_ray_normal(pos) * ray_length)
+    return get_world().direct_space_state.intersect_ray(cam.project_ray_origin(pos), cam.project_ray_origin(pos) + cam.project_ray_normal(pos) * ray_length)
 ```
 
-## Info Tambahan
-
-Traktir Saya:
-
-https://sociabuzz.com/lsfkrshb/tribe
-
-Channel YouTube Saya:
-
-https://www.youtube.com/c/SHBFRLNC
+# 

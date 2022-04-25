@@ -24,8 +24,8 @@ Berikut ini daftar artikelnya:
 
 - [Studi Kasus Godot Engine Simple NavMesh Agent](https://github.com/shbfrlnc/Belajar-Dan-Studi-Kasus-Godot-Engine/tree/main/studi-kasus-godot-engine-simple-navmesh-agent)
 
-## Info Tambahan
+## More Info
 
-Traktir Saya, Channel YouTube Saya, dan lain-lain:
+Support me, my youtube channel, etc:
 
-- https://sociabuzz.com/lsfkrshb
+- https://shbfrlnc.github.io

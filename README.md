@@ -23,9 +23,3 @@ Berikut ini daftar artikelnya:
 - [Studi Kasus Godot Engine Predictive Turret Aim](https://github.com/shbfrlnc/Belajar-Dan-Studi-Kasus-Godot-Engine/tree/main/studi-kasus-godot-engine-predictive-turret-aim)
 
 - [Studi Kasus Godot Engine Simple NavMesh Agent](https://github.com/shbfrlnc/Belajar-Dan-Studi-Kasus-Godot-Engine/tree/main/studi-kasus-godot-engine-simple-navmesh-agent)
-
-## Info Lebih Lanjut
-
-WEBSITE:
-
-- https://shbfrlnc.github.io

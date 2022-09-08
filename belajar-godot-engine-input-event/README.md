@@ -45,5 +45,3 @@ func _input(event):
             else:
                 print(char(event.scancode) + " is pressed")
 ```
-
-# 

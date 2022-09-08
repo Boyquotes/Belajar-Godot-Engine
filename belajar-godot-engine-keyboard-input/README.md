@@ -45,5 +45,3 @@ func _process(delta):
         if(Input.is_action_pressed("run")):
             print("jump while running")
 ```
-
-# 

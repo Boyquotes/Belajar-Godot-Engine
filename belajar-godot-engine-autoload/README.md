@@ -77,5 +77,3 @@ func _ready():
 Perlu diketahui bahwa dalam GDScript di Godot Engine, "#" adalah tanda komentar.
 
 Kode yang ada setelah karakter "#" tidak dijalankan selama masih dalam baris yang sama.
-
-# 

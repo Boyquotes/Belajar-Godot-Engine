@@ -35,5 +35,3 @@ func _process(delta):
     if(Input.is_action_pressed("test_mouse_action")):
         print("test_mouse_action pressed")
 ```
-
-# 

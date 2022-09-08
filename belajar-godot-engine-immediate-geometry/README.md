@@ -58,5 +58,3 @@ func _process(delta):
     end()
     # end: menggambar sphere tambahan berwarna kuning
 ```
-
-# 

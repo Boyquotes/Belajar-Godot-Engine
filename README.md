@@ -6,7 +6,7 @@ Ini adalah kumpulan contoh project Godot Engine.
 
 Sebaiknya Anda juga membaca README.md dari masing-masing folder jika ada, karena saya menggunakan repository ini untuk blogging juga.
 
-Berikut ini daftar artikelnya:
+Berikut ini daftar artikelnya: 
 
 - [Belajar Godot Engine Membuat Project](https://github.com/shbfrlnc/Belajar-Godot-Engine/tree/main/belajar-godot-engine-membuat-project)
 

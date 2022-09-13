@@ -8,6 +8,8 @@ Sebaiknya Anda juga membaca README.md dari masing-masing folder jika ada, karena
 
 Berikut ini daftar artikelnya:
 
+- [Belajar Godot Engine Membuat Project](https://github.com/shbfrlnc/Belajar-Godot-Engine/tree/main/belajar-godot-engine-membuat-project)
+
 - [Belajar Godot Engine Keyboard Input](https://github.com/shbfrlnc/Belajar-Godot-Engine/tree/main/belajar-godot-engine-keyboard-input)
 
 - [Belajar Godot Engine Mouse Button Input](https://github.com/shbfrlnc/Belajar-Godot-Engine/tree/main/belajar-godot-engine-mouse-button-input)

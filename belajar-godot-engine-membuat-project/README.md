@@ -2,7 +2,7 @@
 
 ## Cara Mencoba Kode Ini
 
-Untuk mencoba project ini, download folder ini, kemudian buka di Godot Engine 3.5.
+Untuk mencoba project ini, download folder project, kemudian buka di Godot Engine 3.5.
 
 Selanjutnya jalankan.
 
@@ -16,8 +16,8 @@ Langkah pertama, kita harus men-download dan meng-install Godot Engine terlebih 
 
 Selanjutnya, ikuti gambar di bawah ini.
 
-![ScreenShot](.readme-assets/langkah-1.png?raw=true)
+![ScreenShot](assets/langkah-1.png?raw=true)
 
-![ScreenShot](.readme-assets/langkah-2.png?raw=true)
+![ScreenShot](assets/langkah-2.png?raw=true)
 
-![ScreenShot](.readme-assets/selesai.png?raw=true)
+![ScreenShot](assets/selesai.png?raw=true)

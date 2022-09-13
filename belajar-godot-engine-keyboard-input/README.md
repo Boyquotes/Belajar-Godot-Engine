@@ -2,7 +2,7 @@
 
 ## Cara Mencoba Kode Ini
 
-Untuk mencoba project ini, download folder ini, kemudian buka di Godot Engine 3.4.
+Untuk mencoba project ini, download folder project, kemudian buka di Godot Engine 3.5.
 
 Selanjutnya jalankan.
 

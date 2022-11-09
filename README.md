@@ -1,5 +1,9 @@
 # Belajar-Godot-Engine
 
+## Traktir Saya
+
+Berikan saya uang gratis di https://bit.ly/shb-traktir
+
 ## Pendahuluan
 
 Ini adalah kumpulan contoh project Godot Engine. 

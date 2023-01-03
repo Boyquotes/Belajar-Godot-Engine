@@ -10,7 +10,7 @@
 
 Ini adalah kumpulan contoh project Godot Engine. 
 
-Sebaiknya Anda juga membaca README.md dari masing-masing folder jika ada, karena mungkin kode dijelaskan di README.md.
+Sebaiknya Anda juga membaca README.md dari masing-masing folder jika ada.
 
 Berikut ini daftarnya: 
 

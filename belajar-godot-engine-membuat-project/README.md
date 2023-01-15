@@ -6,18 +6,6 @@ Untuk mencoba project ini, download folder project, kemudian buka di Godot Engin
 
 Selanjutnya jalankan.
 
-## Pendahuluan
+## Link Artikel
 
-Kali ini kita belajar cara membuat project baru di Godot Engine.
-
-## Penjelasan
-
-Langkah pertama, kita harus men-download dan meng-install Godot Engine terlebih dahulu.
-
-Selanjutnya, ikuti gambar di bawah ini.
-
-![ScreenShot](assets/langkah-1.png?raw=true)
-
-![ScreenShot](assets/langkah-2.png?raw=true)
-
-![ScreenShot](assets/selesai.png?raw=true)
+https://shbfrlnc.github.io/belajar-godot-engine-membuat-project.html

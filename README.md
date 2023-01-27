@@ -15,6 +15,7 @@ Berikut ini daftarnya:
 - [Belajar Godot Engine Autoload](https://github.com/shbfrlnc/Belajar-Godot-Engine/tree/main/belajar-godot-engine-autoload)
 - [Belajar Godot Engine Immediate Geometry](https://github.com/shbfrlnc/Belajar-Godot-Engine/tree/main/belajar-godot-engine-immediate-geometry)
 - [Belajar Godot Engine Predictive Turret Aim](https://github.com/shbfrlnc/Belajar-Godot-Engine/tree/main/belajar-godot-engine-predictive-turret-aim)
+- [Belajar Godot Engine Simple NavMesh Agent](https://github.com/shbfrlnc/Belajar-Godot-Engine/tree/main/belajar-godot-engine-simple-navmesh-agent)
 
 
 Link artikel terkait ada di:

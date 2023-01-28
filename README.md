@@ -14,6 +14,7 @@ Berikut ini daftarnya:
 - [Belajar Godot Engine Input Event](https://github.com/shbfrlnc/Belajar-Godot-Engine/tree/main/belajar-godot-engine-input-event)
 - [Belajar Godot Engine Autoload](https://github.com/shbfrlnc/Belajar-Godot-Engine/tree/main/belajar-godot-engine-autoload)
 - [Belajar Godot Engine Immediate Geometry](https://github.com/shbfrlnc/Belajar-Godot-Engine/tree/main/belajar-godot-engine-immediate-geometry)
+- [Belajar Godot Engine Simple Turret Aim](https://github.com/shbfrlnc/Belajar-Godot-Engine/tree/main/belajar-godot-engine-simple-turret-aim)
 - [Belajar Godot Engine Predictive Turret Aim](https://github.com/shbfrlnc/Belajar-Godot-Engine/tree/main/belajar-godot-engine-predictive-turret-aim)
 - [Belajar Godot Engine Simple NavMesh Agent](https://github.com/shbfrlnc/Belajar-Godot-Engine/tree/main/belajar-godot-engine-simple-navmesh-agent)
 
